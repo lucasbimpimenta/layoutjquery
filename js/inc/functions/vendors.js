@@ -5,11 +5,7 @@ if($('#dropzone-upload')[0]) {
     Dropzone.autoDiscover = false;
 }
 
-$(document).ready(function () {
-    /*------------------------------------------------
-        Data Table (DataTables)
-    ------------------------------------------------*/
-    if($('#data-table')[0]) {
+function AtivaDataTables(){
 
         // Add custom buttons
         var dataTableButtons =  '<div class="dataTables_buttons hidden-sm-down actions">' +
@@ -81,6 +77,12 @@ $(document).ready(function () {
             }
         });
     }
+
+$(document).ready(function () {
+    /*------------------------------------------------
+        Data Table (DataTables)
+    ------------------------------------------------*/
+    if($('#data-table')[0]) AtivaDataTables();
 
 
     /*------------------------------------------------

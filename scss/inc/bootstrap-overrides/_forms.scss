@@ -51,7 +51,7 @@ select::-ms-expand {
     bottom: 0;
     @include transition(all 400ms);
     transition-timing-function: ease;
-    background-color: $white;
+    background-color: $blue;
     left: 0;
   }
 }
