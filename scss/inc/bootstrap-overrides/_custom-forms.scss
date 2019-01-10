@@ -4,8 +4,8 @@
 }
 
 .custom-control-indicator {
-  border: 1px solid rgba($white, 0.6);
-  color: $white;
+  border: 1px solid rgba($blue, 0.6);
+  color: $blue;
   top: 0.03rem;
   @include transition(border 200ms);
 }
@@ -16,7 +16,7 @@
       content: '\f26b';
       background-color: $white;
       font-family: $font-family-icon;
-      color: $color-inverse;
+      color: $orange;
       position: absolute;
       left: 0;
       top: 0;
@@ -51,7 +51,7 @@
       width: 9px;
       height: 9px;
       border-radius: 50%;
-      background-color: rgba($white, 0.9);
+      background-color: rgba($orange, 0.7);
       z-index: 1;
       transform: scale(0);
       @include transition(transform 200ms);
@@ -69,7 +69,7 @@
 
 .custom-control-input {
   &:checked ~ .custom-control-indicator {
-    border-color: rgba($white, 0.9);
+    border-color: rgba($orange, 0.9);
   }
 
   &:disabled ~ .custom-control-indicator {
@@ -91,7 +91,7 @@
     &:checked + .custom-control--char__helper {
       &:after {
         opacity: 1;
-        color: $black;
+        color: $white;
       }
 
       &:before {
@@ -100,7 +100,7 @@
 
       & > i {
         font-size: 0;
-        background-color: rgba($white, 0.75);
+        background-color: rgba($blue, 0.75);
       }
     }
   }

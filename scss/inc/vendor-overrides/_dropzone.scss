@@ -1,6 +1,6 @@
 .dropzone {
   border: 0;
-  background-color: $bg-highlighted-dark;
+  background-color: rgba($cyan, 0.3);
   border-radius: $border-radius;
   @include transition(border-color 300ms, background-color 300ms);
   min-height: 50px;
@@ -22,7 +22,7 @@
     height: 50px;
     line-height: 50px;
     text-align: center;
-    background-color: $bg-highlighted-light;
+    background-color: rgba($cyan, 0.04);
     border-radius: 50%;
     opacity: 0;
     @include transition(opacity 300ms);
@@ -76,7 +76,7 @@
       border-radius: $border-radius-lg;
       @include transition(color 300ms, box-shadow, 300ms);
       padding: 0.5rem 1.4rem 0.8rem;
-      background-color: $bg-highlighted-light;
+      background-color: rgba($cyan, 0.04);
 
       &:before {
         content: '\f21e';
@@ -100,7 +100,7 @@
 
   &:hover,
   &.dz-drag-hover {
-    background-color: rgba($black, 0.25);
+    background-color: rgba($cyan, 0.6);
   }
 
   &.dz-drag-hover {
