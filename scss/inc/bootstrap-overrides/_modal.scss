@@ -11,7 +11,7 @@
   padding-top: 0.8rem;
 
   & > .btn-link {
-    color: $white;
+    color: $blue;
     font-weight: $font-weight-bold;
     text-transform: uppercase;
     cursor: pointer;
@@ -28,6 +28,7 @@
 @include media-breakpoint-up(sm) {
   .modal {
     text-align: center;
+    background-color: rgba($cyan, 0.7);
 
     &:before {
       content: '';

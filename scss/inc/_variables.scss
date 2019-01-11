@@ -263,9 +263,9 @@ $carousel-caption-color: rgba($white, 0.9);
 
 
 // Modal
-$modal-content-bg: $bg-highlighted-darkest;
-$modal-backdrop-bg: $white;
-$modal-backdrop-opacity: 0.2;
+$modal-content-bg: $white;
+$modal-backdrop-bg: $cyan;
+$modal-backdrop-opacity: 0.9;
 $modal-content-box-shadow-xs: 0 5px 20px rgba(0,0,0,.3);
 $modal-content-box-shadow-sm-up: $modal-content-box-shadow-xs;
 $modal-content-border-width: 0;
