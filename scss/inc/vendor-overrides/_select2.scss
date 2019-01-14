@@ -18,7 +18,8 @@
 
     .select2-selection__rendered {
       line-height: $input-btn-line-height;
-      padding: $input-btn-padding-y 1px;
+      //padding: $input-btn-padding-y 1px;
+      padding: 0.4rem 1px;
       color: $input-color;
     }
   }
